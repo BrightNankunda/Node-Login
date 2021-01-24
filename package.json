@@ -1,0 +1,29 @@
+{
+  "name": "node-login",
+  "version": "1.0.0",
+  "description": "Login with jwt in Node and mongodb",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "Login"
+  ],
+  "author": "Nintey Seven",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "joi": "^17.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.11",
+    "mongose": "0.0.2-security"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
